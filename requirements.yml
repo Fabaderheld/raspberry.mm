@@ -1,3 +1,6 @@
 ---
 - name: faba.useraccounts
   src: https://github.com/Fabaderheld/faba.useraccounts.git
+
+- name: faba.common
+  src: https://github.com/Fabaderheld/faba.common.git
