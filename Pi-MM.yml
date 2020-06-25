@@ -1,0 +1,17 @@
+---
+- hosts: localhost
+  connection: local 
+
+  roles:
+    - faba.useraccounts
+    #- faba.reverseproxy
+    - common
+    #- lifeofguenter.unifi-controller
+    # - faba.docker
+
+  tasks:
+    - name: "Remove pi user"
+      user:
+        name: pi
+        remove: yes
+        state: absent

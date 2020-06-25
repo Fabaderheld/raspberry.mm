@@ -1,0 +1,3 @@
+---
+- name: faba.useraccounts
+  src: https://github.com/Fabaderheld/faba.useraccounts.git
